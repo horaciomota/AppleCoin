@@ -16,14 +16,21 @@ struct SplashScreen: View {
             
             VStack (alignment: .center) {
                 Text("Manage Your")
-                    .font(.system(size: 48, weight: .regular))
+                    .font(.system(size: 48, weight: .light))
                     .foregroundColor(.white)
+                    .padding(.bottom, 0)
                 Text("Finance")
                     .font(.system(size: 48, weight: .regular))
                     .foregroundColor(.yellow)
                     .fontWeight(.bold)
+            
+                    Rectangle()
+                        .frame(width: 350,height: 519)
+                        .foregroundColor(.purple)
+                        .cornerRadius(80)
             }
         }
+        
        
     }
 }

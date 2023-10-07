@@ -23,11 +23,34 @@ struct SplashScreen: View {
                     .font(.system(size: 48, weight: .regular))
                     .foregroundColor(.yellow)
                     .fontWeight(.bold)
-            
+                //rectangle + estatue
+                ZStack {
                     Rectangle()
-                        .frame(width: 350,height: 519)
+                        .frame(width: 405,height: 519)
                         .foregroundColor(.purple)
                         .cornerRadius(80)
+                        .padding(.top, 100)
+                    Image("Vector-2")
+                        .resizable()
+                        .frame(width: 365, height: 561)
+                        .padding(.bottom, 100)
+                    Image("Vector")
+                        .resizable()
+                        .frame(width: 365, height: 561)
+                        .padding(.bottom, 100)
+                    Image("estatua")
+                        .resizable()
+                        .frame(width: 365, height: 561)
+                        .padding(.bottom, 100)
+                    Image("Star")
+                        .padding(.leading, 300)
+                    Image("Star")
+                        .padding(.top, 300)
+                        .padding(.trailing, 300)
+                }
+                
+                Spacer()
+
             }
         }
         

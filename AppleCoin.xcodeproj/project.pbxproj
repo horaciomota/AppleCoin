@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D8D134E2AD1B2E100372BA7 /* AppleCoinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D134D2AD1B2E100372BA7 /* AppleCoinApp.swift */; };
+		3D8D13502AD1B2E100372BA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D134F2AD1B2E100372BA7 /* ContentView.swift */; };
+		3D8D13522AD1B2E200372BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8D13512AD1B2E200372BA7 /* Assets.xcassets */; };
+		3D8D13562AD1B2E200372BA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8D13552AD1B2E200372BA7 /* Preview Assets.xcassets */; };
+		3D8D13602AD1B2E300372BA7 /* AppleCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D135F2AD1B2E300372BA7 /* AppleCoinTests.swift */; };
+		3D8D136A2AD1B2E300372BA7 /* AppleCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D13692AD1B2E300372BA7 /* AppleCoinUITests.swift */; };
+		3D8D136C2AD1B2E300372BA7 /* AppleCoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D136B2AD1B2E300372BA7 /* AppleCoinUITestsLaunchTests.swift */; };
+		3D8D137B2AD1B49200372BA7 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D137A2AD1B49200372BA7 /* SplashScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D8D135C2AD1B2E300372BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D8D13422AD1B2E000372BA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D8D13492AD1B2E100372BA7;
+			remoteInfo = AppleCoin;
+		};
+		3D8D13662AD1B2E300372BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D8D13422AD1B2E000372BA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D8D13492AD1B2E100372BA7;
+			remoteInfo = AppleCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D8D134A2AD1B2E100372BA7 /* AppleCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8D134D2AD1B2E100372BA7 /* AppleCoinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCoinApp.swift; sourceTree = "<group>"; };
+		3D8D134F2AD1B2E100372BA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D8D13512AD1B2E200372BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D8D13532AD1B2E200372BA7 /* AppleCoin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleCoin.entitlements; sourceTree = "<group>"; };
+		3D8D13552AD1B2E200372BA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D8D135B2AD1B2E300372BA7 /* AppleCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8D135F2AD1B2E300372BA7 /* AppleCoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCoinTests.swift; sourceTree = "<group>"; };
+		3D8D13652AD1B2E300372BA7 /* AppleCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8D13692AD1B2E300372BA7 /* AppleCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCoinUITests.swift; sourceTree = "<group>"; };
+		3D8D136B2AD1B2E300372BA7 /* AppleCoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3D8D137A2AD1B49200372BA7 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D8D13472AD1B2E100372BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8D13582AD1B2E300372BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8D13622AD1B2E300372BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D8D13412AD1B2E000372BA7 = {
+			isa = PBXGroup;
+			children = (
+				3D8D134C2AD1B2E100372BA7 /* AppleCoin */,
+				3D8D135E2AD1B2E300372BA7 /* AppleCoinTests */,
+				3D8D13682AD1B2E300372BA7 /* AppleCoinUITests */,
+				3D8D134B2AD1B2E100372BA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D8D134B2AD1B2E100372BA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D8D134A2AD1B2E100372BA7 /* AppleCoin.app */,
+				3D8D135B2AD1B2E300372BA7 /* AppleCoinTests.xctest */,
+				3D8D13652AD1B2E300372BA7 /* AppleCoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D8D134C2AD1B2E100372BA7 /* AppleCoin */ = {
+			isa = PBXGroup;
+			children = (
+				3D8D13782AD1B44B00372BA7 /* View */,
+				3D8D134D2AD1B2E100372BA7 /* AppleCoinApp.swift */,
+				3D8D134F2AD1B2E100372BA7 /* ContentView.swift */,
+				3D8D13512AD1B2E200372BA7 /* Assets.xcassets */,
+				3D8D13532AD1B2E200372BA7 /* AppleCoin.entitlements */,
+				3D8D13542AD1B2E200372BA7 /* Preview Content */,
+			);
+			path = AppleCoin;
+			sourceTree = "<group>";
+		};
+		3D8D13542AD1B2E200372BA7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D8D13552AD1B2E200372BA7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D8D135E2AD1B2E300372BA7 /* AppleCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D8D135F2AD1B2E300372BA7 /* AppleCoinTests.swift */,
+			);
+			path = AppleCoinTests;
+			sourceTree = "<group>";
+		};
+		3D8D13682AD1B2E300372BA7 /* AppleCoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D8D13692AD1B2E300372BA7 /* AppleCoinUITests.swift */,
+				3D8D136B2AD1B2E300372BA7 /* AppleCoinUITestsLaunchTests.swift */,
+			);
+			path = AppleCoinUITests;
+			sourceTree = "<group>";
+		};
+		3D8D13782AD1B44B00372BA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D8D13792AD1B45C00372BA7 /* SplashScreen */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D8D13792AD1B45C00372BA7 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3D8D137A2AD1B49200372BA7 /* SplashScreen.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D8D13492AD1B2E100372BA7 /* AppleCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8D136F2AD1B2E300372BA7 /* Build configuration list for PBXNativeTarget "AppleCoin" */;
+			buildPhases = (
+				3D8D13462AD1B2E100372BA7 /* Sources */,
+				3D8D13472AD1B2E100372BA7 /* Frameworks */,
+				3D8D13482AD1B2E100372BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleCoin;
+			productName = AppleCoin;
+			productReference = 3D8D134A2AD1B2E100372BA7 /* AppleCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D8D135A2AD1B2E300372BA7 /* AppleCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8D13722AD1B2E300372BA7 /* Build configuration list for PBXNativeTarget "AppleCoinTests" */;
+			buildPhases = (
+				3D8D13572AD1B2E300372BA7 /* Sources */,
+				3D8D13582AD1B2E300372BA7 /* Frameworks */,
+				3D8D13592AD1B2E300372BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D8D135D2AD1B2E300372BA7 /* PBXTargetDependency */,
+			);
+			name = AppleCoinTests;
+			productName = AppleCoinTests;
+			productReference = 3D8D135B2AD1B2E300372BA7 /* AppleCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D8D13642AD1B2E300372BA7 /* AppleCoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8D13752AD1B2E300372BA7 /* Build configuration list for PBXNativeTarget "AppleCoinUITests" */;
+			buildPhases = (
+				3D8D13612AD1B2E300372BA7 /* Sources */,
+				3D8D13622AD1B2E300372BA7 /* Frameworks */,
+				3D8D13632AD1B2E300372BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D8D13672AD1B2E300372BA7 /* PBXTargetDependency */,
+			);
+			name = AppleCoinUITests;
+			productName = AppleCoinUITests;
+			productReference = 3D8D13652AD1B2E300372BA7 /* AppleCoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D8D13422AD1B2E000372BA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3D8D13492AD1B2E100372BA7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3D8D135A2AD1B2E300372BA7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3D8D13492AD1B2E100372BA7;
+					};
+					3D8D13642AD1B2E300372BA7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3D8D13492AD1B2E100372BA7;
+					};
+				};
+			};
+			buildConfigurationList = 3D8D13452AD1B2E000372BA7 /* Build configuration list for PBXProject "AppleCoin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D8D13412AD1B2E000372BA7;
+			productRefGroup = 3D8D134B2AD1B2E100372BA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D8D13492AD1B2E100372BA7 /* AppleCoin */,
+				3D8D135A2AD1B2E300372BA7 /* AppleCoinTests */,
+				3D8D13642AD1B2E300372BA7 /* AppleCoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D8D13482AD1B2E100372BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8D13562AD1B2E200372BA7 /* Preview Assets.xcassets in Resources */,
+				3D8D13522AD1B2E200372BA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8D13592AD1B2E300372BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8D13632AD1B2E300372BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D8D13462AD1B2E100372BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8D137B2AD1B49200372BA7 /* SplashScreen.swift in Sources */,
+				3D8D13502AD1B2E100372BA7 /* ContentView.swift in Sources */,
+				3D8D134E2AD1B2E100372BA7 /* AppleCoinApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8D13572AD1B2E300372BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8D13602AD1B2E300372BA7 /* AppleCoinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8D13612AD1B2E300372BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8D136C2AD1B2E300372BA7 /* AppleCoinUITestsLaunchTests.swift in Sources */,
+				3D8D136A2AD1B2E300372BA7 /* AppleCoinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D8D135D2AD1B2E300372BA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D8D13492AD1B2E100372BA7 /* AppleCoin */;
+			targetProxy = 3D8D135C2AD1B2E300372BA7 /* PBXContainerItemProxy */;
+		};
+		3D8D13672AD1B2E300372BA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D8D13492AD1B2E100372BA7 /* AppleCoin */;
+			targetProxy = 3D8D13662AD1B2E300372BA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D8D136D2AD1B2E300372BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D8D136E2AD1B2E300372BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3D8D13702AD1B2E300372BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppleCoin/AppleCoin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleCoin/Preview Content\"";
+				DEVELOPMENT_TEAM = SKHUBRDPGV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.horacio.AppleCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D8D13712AD1B2E300372BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppleCoin/AppleCoin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleCoin/Preview Content\"";
+				DEVELOPMENT_TEAM = SKHUBRDPGV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.horacio.AppleCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D8D13732AD1B2E300372BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SKHUBRDPGV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.horacio.AppleCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleCoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleCoin";
+			};
+			name = Debug;
+		};
+		3D8D13742AD1B2E300372BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SKHUBRDPGV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.horacio.AppleCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleCoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleCoin";
+			};
+			name = Release;
+		};
+		3D8D13762AD1B2E300372BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SKHUBRDPGV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.horacio.AppleCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleCoin;
+			};
+			name = Debug;
+		};
+		3D8D13772AD1B2E300372BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SKHUBRDPGV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.horacio.AppleCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleCoin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D8D13452AD1B2E000372BA7 /* Build configuration list for PBXProject "AppleCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8D136D2AD1B2E300372BA7 /* Debug */,
+				3D8D136E2AD1B2E300372BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D8D136F2AD1B2E300372BA7 /* Build configuration list for PBXNativeTarget "AppleCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8D13702AD1B2E300372BA7 /* Debug */,
+				3D8D13712AD1B2E300372BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D8D13722AD1B2E300372BA7 /* Build configuration list for PBXNativeTarget "AppleCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8D13732AD1B2E300372BA7 /* Debug */,
+				3D8D13742AD1B2E300372BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D8D13752AD1B2E300372BA7 /* Build configuration list for PBXNativeTarget "AppleCoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8D13762AD1B2E300372BA7 /* Debug */,
+				3D8D13772AD1B2E300372BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D8D13422AD1B2E000372BA7 /* Project object */;
+}

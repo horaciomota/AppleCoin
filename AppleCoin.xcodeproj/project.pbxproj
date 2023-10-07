@@ -15,6 +15,7 @@
 		3D8D136A2AD1B2E300372BA7 /* AppleCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D13692AD1B2E300372BA7 /* AppleCoinUITests.swift */; };
 		3D8D136C2AD1B2E300372BA7 /* AppleCoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D136B2AD1B2E300372BA7 /* AppleCoinUITestsLaunchTests.swift */; };
 		3D8D137B2AD1B49200372BA7 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D137A2AD1B49200372BA7 /* SplashScreen.swift */; };
+		3D8D13812AD1EEE100372BA7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D13802AD1EEE100372BA7 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3D8D13692AD1B2E300372BA7 /* AppleCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCoinUITests.swift; sourceTree = "<group>"; };
 		3D8D136B2AD1B2E300372BA7 /* AppleCoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3D8D137A2AD1B49200372BA7 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		3D8D13802AD1EEE100372BA7 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +99,9 @@
 		3D8D134C2AD1B2E100372BA7 /* AppleCoin */ = {
 			isa = PBXGroup;
 			children = (
+				3D8D137F2AD1EEC600372BA7 /* Extensions */,
 				3D8D13782AD1B44B00372BA7 /* View */,
+				3D8D137D2AD1EDA200372BA7 /* SampleModel */,
 				3D8D134D2AD1B2E100372BA7 /* AppleCoinApp.swift */,
 				3D8D134F2AD1B2E100372BA7 /* ContentView.swift */,
 				3D8D13512AD1B2E200372BA7 /* Assets.xcassets */,
@@ -136,6 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				3D8D13792AD1B45C00372BA7 /* SplashScreen */,
+				3D8D137C2AD1ED2B00372BA7 /* HomeScreen */,
+				3D8D137E2AD1EE9300372BA7 /* Analytics */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -146,6 +152,35 @@
 				3D8D137A2AD1B49200372BA7 /* SplashScreen.swift */,
 			);
 			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		3D8D137C2AD1ED2B00372BA7 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		3D8D137D2AD1EDA200372BA7 /* SampleModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SampleModel;
+			sourceTree = "<group>";
+		};
+		3D8D137E2AD1EE9300372BA7 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		3D8D137F2AD1EEC600372BA7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3D8D13802AD1EEE100372BA7 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D8D137B2AD1B49200372BA7 /* SplashScreen.swift in Sources */,
+				3D8D13812AD1EEE100372BA7 /* Color.swift in Sources */,
 				3D8D13502AD1B2E100372BA7 /* ContentView.swift in Sources */,
 				3D8D134E2AD1B2E100372BA7 /* AppleCoinApp.swift in Sources */,
 			);

@@ -16,6 +16,8 @@
 		3D8D136C2AD1B2E300372BA7 /* AppleCoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D136B2AD1B2E300372BA7 /* AppleCoinUITestsLaunchTests.swift */; };
 		3D8D137B2AD1B49200372BA7 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D137A2AD1B49200372BA7 /* SplashScreen.swift */; };
 		3D8D13812AD1EEE100372BA7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D13802AD1EEE100372BA7 /* Color.swift */; };
+		3D8D13832AD2032300372BA7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D13822AD2032300372BA7 /* Home.swift */; };
+		3D8D13852AD20EDA00372BA7 /* BlackBackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D13842AD20EDA00372BA7 /* BlackBackgroundModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3D8D136B2AD1B2E300372BA7 /* AppleCoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3D8D137A2AD1B49200372BA7 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		3D8D13802AD1EEE100372BA7 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		3D8D13822AD2032300372BA7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3D8D13842AD20EDA00372BA7 /* BlackBackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBackgroundModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,7 @@
 		3D8D137C2AD1ED2B00372BA7 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				3D8D13822AD2032300372BA7 /* Home.swift */,
 			);
 			path = HomeScreen;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				3D8D13802AD1EEE100372BA7 /* Color.swift */,
+				3D8D13842AD20EDA00372BA7 /* BlackBackgroundModifier.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -315,7 +321,9 @@
 			files = (
 				3D8D137B2AD1B49200372BA7 /* SplashScreen.swift in Sources */,
 				3D8D13812AD1EEE100372BA7 /* Color.swift in Sources */,
+				3D8D13832AD2032300372BA7 /* Home.swift in Sources */,
 				3D8D13502AD1B2E100372BA7 /* ContentView.swift in Sources */,
+				3D8D13852AD20EDA00372BA7 /* BlackBackgroundModifier.swift in Sources */,
 				3D8D134E2AD1B2E100372BA7 /* AppleCoinApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

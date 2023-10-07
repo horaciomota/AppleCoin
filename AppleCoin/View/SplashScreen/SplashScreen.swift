@@ -65,28 +65,32 @@ struct SplashScreen: View {
                     .padding(.trailing, 300)
                 
                 //Action button to go to HomeView
-                ZStack {
-                    Circle()
-                    // From Yello (F9D16B) to white
-                        .fill(LinearGradient(
-                            gradient: Gradient(colors: [Color(hex: "F9D16B"), Color.white]),
-                            startPoint: .top,
-                            endPoint: .bottom
-                        )
-                        )
-                        .frame(height: 150)
-                        .padding(.top, 500)
-                        .overlay(
-                            Circle()
-                                .stroke(Color.black, lineWidth: 40)
-                                .padding(.top, 500)
-                        )
-                    
-                    Image(systemName: "arrow.right")
-                        .font(.system(size: 40))
-                        .padding(.top, 500)
+                
+                Button {
+                    //Include navigation
+                } label: {
+                    ZStack {
+                        Circle()
+                        // From Yello (F9D16B) to white
+                            .fill(LinearGradient(
+                                gradient: Gradient(colors: [Color(hex: "F9D16B"), Color.white]),
+                                startPoint: .top,
+                                endPoint: .bottom
+                            )
+                            )
+                            .frame(height: 150)
+                            .padding(.top, 500)
+                            .overlay(
+                                Circle()
+                                    .stroke(Color.black, lineWidth: 40)
+                                    .padding(.top, 500)
+                            )
+                        
+                        Image(systemName: "arrow.right")
+                            .font(.system(size: 40))
+                            .padding(.top, 500)
+                    }
                 }
-
 
             }
             .padding(.top, 150)

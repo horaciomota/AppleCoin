@@ -11,8 +11,6 @@ struct Home: View {
     var body: some View {
 
         VStack(alignment: .leading) {
-            Color.black.ignoresSafeArea(.all)
-            
             HStack {
                 Image(systemName: "list.bullet")
                     .font(.system(size: 24))
@@ -89,8 +87,10 @@ struct Home: View {
             
             Spacer()
 
-        }.modifier(BlackBackgroundModifier())
-
+        }
+        .padding(.horizontal)
+        .modifier(BlackBackgroundModifier())
+        
     }
 }
 

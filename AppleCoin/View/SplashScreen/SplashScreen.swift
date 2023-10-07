@@ -10,10 +10,7 @@ import SwiftUI
 struct SplashScreen: View {
     var body: some View {
 
-        ZStack {
-            //this is the best way to start on a black bg app
-            Color.black.edgesIgnoringSafeArea(.all)
-            
+        VStack {
             VStack (alignment: .center) {
                 Text("Manage Your")
                     .font(.system(size: 48, weight: .light))
@@ -42,6 +39,7 @@ struct SplashScreen: View {
             //rectangle + estatue + details
             ZStack {
                 Rectangle()
+                    .fill(Color.clear) // Define a cor de preenchimento como transparente
                     Color(hex: "313179")
                     .frame(width: 405,height: 519)
                     .cornerRadius(80)
@@ -50,10 +48,12 @@ struct SplashScreen: View {
                     .resizable()
                     .frame(width: 365, height: 561)
                     .padding(.bottom, 100)
+
                 Image("estatua")
                     .resizable()
                     .frame(width: 365, height: 561)
                     .padding(.bottom, 100)
+                
                 Image("Vector")
                     .resizable()
                     .frame(width: 365, height: 561)
@@ -89,12 +89,17 @@ struct SplashScreen: View {
                         Image(systemName: "arrow.right")
                             .font(.system(size: 40))
                             .padding(.top, 500)
+                            .foregroundColor(.black)
+                        
                     }
+
                 }
 
             }
-            .padding(.top, 150)
+
         }
+        .padding(.horizontal)
+        .modifier(BlackBackgroundModifier())
         
        
     }

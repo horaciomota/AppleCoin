@@ -67,35 +67,27 @@ struct SplashScreen: View {
                 
                 //Action button to go to HomeView
                 
-                Button {
-                    //Include navigation
-                } label: {
+                NavigationLink(destination: Home()) {
                     ZStack {
                         Circle()
-                        // From Yello (F9D16B) to white
                             .fill(LinearGradient(
                                 gradient: Gradient(colors: [Color(hex: "F9D16B"), Color.white]),
                                 startPoint: .leading,
                                 endPoint: .bottom
-                            )
-                            )
+                            ))
                             .frame(height: 150)
-                            .padding(.top, 500)
                             .overlay(
                                 Circle()
                                     .stroke(Color.black, lineWidth: 40)
-                                    .padding(.top, 500)
                             )
                         
                         Image(systemName: "arrow.right")
                             .font(.system(size: 40))
-                            .padding(.top, 500)
                             .foregroundColor(.black)
-                        
                     }
-                    
                 }
-                
+                .padding(.top, 500)
+
             }
             
         }
@@ -103,7 +95,9 @@ struct SplashScreen: View {
         .modifier(BlackBackgroundModifier())
         
     }
-
+    .navigationBarHidden(true)
+    .navigationBarItems(leading: EmptyView()) // Hide the back button
+    .navigationBarBackButtonHidden(true)
         
        
     }

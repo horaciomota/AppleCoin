@@ -9,7 +9,8 @@ import SwiftUI
 
 struct SplashScreen: View {
     var body: some View {
-
+        
+    NavigationView {
         VStack {
             VStack (alignment: .center) {
                 Text("Manage Your")
@@ -40,7 +41,7 @@ struct SplashScreen: View {
             ZStack {
                 Rectangle()
                     .fill(Color.clear) // Define a cor de preenchimento como transparente
-                    Color(hex: "313179")
+                Color(hex: "313179")
                     .frame(width: 405,height: 519)
                     .cornerRadius(80)
                     .padding(.top, 100)
@@ -48,7 +49,7 @@ struct SplashScreen: View {
                     .resizable()
                     .frame(width: 365, height: 561)
                     .padding(.bottom, 100)
-
+                
                 Image("estatua")
                     .resizable()
                     .frame(width: 365, height: 561)
@@ -92,14 +93,17 @@ struct SplashScreen: View {
                             .foregroundColor(.black)
                         
                     }
-
+                    
                 }
-
+                
             }
-
+            
         }
         .padding(.horizontal)
         .modifier(BlackBackgroundModifier())
+        
+    }
+
         
        
     }

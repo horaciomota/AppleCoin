@@ -25,12 +25,12 @@ struct Home: View {
                 Text("Your Balance")
                     .font(.headline)
                     .foregroundColor(.gray)
+
                 
                 Text("$1339,99")
                     .font(.system(size: 45, weight: .bold))
             }
             .padding(.top)
-
             
             HStack(spacing:-4) {
             //WithDranw action button
@@ -86,6 +86,11 @@ struct Home: View {
             .cornerRadius(200)
 
         }
+            Text("Your Balance")
+                .font(.headline)
+                .foregroundColor(.gray)
+                .padding(.top, 10)
+            
             
             //Inclined card
             ZStack {//Controller for all cards
@@ -125,6 +130,8 @@ struct Home: View {
                         
                     }
                 }
+                .padding(.bottom, 100)
+
                 
                 //Seccound Card
                 VStack {
@@ -161,9 +168,10 @@ struct Home: View {
                         
                     }
                 }
-                .padding(.top, 100)
                 
             } //Controller for all cards
+            
+            //Transactions
             
             Spacer()
 

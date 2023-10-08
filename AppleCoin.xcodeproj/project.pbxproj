@@ -18,6 +18,7 @@
 		3D8D13812AD1EEE100372BA7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D13802AD1EEE100372BA7 /* Color.swift */; };
 		3D8D13832AD2032300372BA7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D13822AD2032300372BA7 /* Home.swift */; };
 		3D8D13852AD20EDA00372BA7 /* BlackBackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D13842AD20EDA00372BA7 /* BlackBackgroundModifier.swift */; };
+		3D8D13872AD2C3E800372BA7 /* CustomCardShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D13862AD2C3E800372BA7 /* CustomCardShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3D8D13802AD1EEE100372BA7 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		3D8D13822AD2032300372BA7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		3D8D13842AD20EDA00372BA7 /* BlackBackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBackgroundModifier.swift; sourceTree = "<group>"; };
+		3D8D13862AD2C3E800372BA7 /* CustomCardShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 			children = (
 				3D8D13802AD1EEE100372BA7 /* Color.swift */,
 				3D8D13842AD20EDA00372BA7 /* BlackBackgroundModifier.swift */,
+				3D8D13862AD2C3E800372BA7 /* CustomCardShape.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			files = (
 				3D8D137B2AD1B49200372BA7 /* SplashScreen.swift in Sources */,
 				3D8D13812AD1EEE100372BA7 /* Color.swift in Sources */,
+				3D8D13872AD2C3E800372BA7 /* CustomCardShape.swift in Sources */,
 				3D8D13832AD2032300372BA7 /* Home.swift in Sources */,
 				3D8D13502AD1B2E100372BA7 /* ContentView.swift in Sources */,
 				3D8D13852AD20EDA00372BA7 /* BlackBackgroundModifier.swift in Sources */,

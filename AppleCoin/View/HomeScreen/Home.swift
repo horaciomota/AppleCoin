@@ -86,14 +86,84 @@ struct Home: View {
             .cornerRadius(200)
 
         }
-            Spacer()
             
             //Inclined card
-            InclinedRectangleShape()
-                 .frame(width: 382, height: 180)
-                 .foregroundColor(.purple)
-                 .cornerRadius(30)
-         
+            ZStack {//Controller for all cards
+                
+                //First Card
+                VStack {
+                    ZStack {
+                        CustomCardShape()
+                            .frame(width: 382, height: 200)
+                            .foregroundColor(.gray)
+                            .cornerRadius(20)
+                        
+                        //Card custom mask
+                        Image("CardMask")
+                            .opacity(0.09)
+                            .colorInvert()
+                        
+                        Image("CardLogo")
+                            .padding(.top, -60)
+                            .padding(.trailing, 300)
+                        
+                        //Curency top right
+                        Text("USD")
+                            .font(.system(size: 18, weight: .semibold))
+                            .padding(.top, -70)
+                            .padding(.leading, 300)
+                        
+                        VStack(alignment: .leading) {
+                            Text("Horacio Mota")
+                                .font(.system(size: 18, weight: .semibold))
+                            
+                            Text("5591 0005 0000 0000")
+                                .font(.system(size: 22, weight: .bold))
+                        }
+                        .padding(.top, 100)
+                        .padding(.trailing, 100)
+                        
+                    }
+                }
+                
+                //Seccound Card
+                VStack {
+                    ZStack {
+                        CustomCardShape()
+                            .frame(width: 382, height: 200)
+                            .foregroundColor(.purple)
+                            .cornerRadius(20)
+                        
+                        //Card custom mask
+                        Image("CardMask")
+                            .opacity(0.09)
+                            .colorInvert()
+                        
+                        Image("CardLogo")
+                            .padding(.top, -60)
+                            .padding(.trailing, 300)
+                        
+                        //Curency top right
+                        Text("EUR")
+                            .font(.system(size: 18, weight: .semibold))
+                            .padding(.top, -70)
+                            .padding(.leading, 300)
+                        
+                        VStack(alignment: .leading) {
+                            Text("Horacio Mota")
+                                .font(.system(size: 18, weight: .semibold))
+                            
+                            Text("5591 0005 0000 0000")
+                                .font(.system(size: 22, weight: .bold))
+                        }
+                        .padding(.top, 100)
+                        .padding(.trailing, 100)
+                        
+                    }
+                }
+                .padding(.top, 100)
+                
+            } //Controller for all cards
             
             Spacer()
 
@@ -103,23 +173,6 @@ struct Home: View {
         
     }
 }
-
-
-struct InclinedRectangleShape: Shape {
-    func path(in rect: CGRect) -> Path {
-        var path = Path()
-        
-        path.move(to: CGPoint(x: rect.minX, y: rect.minY))
-        path.addLine(to: CGPoint(x: rect.maxX, y: rect.minY)) // Linha do topo
-        path.addLine(to: CGPoint(x: rect.maxX, y: rect.minY)) // Linha inclinada para cima
-        path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY)) // Linha da direita
-        path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY)) // Linha inferior
-        path.closeSubpath()
-        
-        return path
-    }
-}
-
 
 struct Home_Previews: PreviewProvider {
     static var previews: some View {

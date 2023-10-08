@@ -23,11 +23,14 @@ struct Home: View {
             
             VStack(alignment: .leading) {
                 Text("Your Balance")
-                    .font(.title)
+                    .font(.headline)
+                    .foregroundColor(.gray)
                 
                 Text("$1339,99")
-                    .font(.title3)
+                    .font(.system(size: 45, weight: .bold))
             }
+            .padding(.top)
+
             
             HStack(spacing:-4) {
             //WithDranw action button
@@ -36,7 +39,7 @@ struct Home: View {
                     .foregroundColor(.white)
                     .font(.title3)
                     .fontWeight(.bold)
-                    .padding()
+                    .padding(10)
                     .background(Color.black)
                     .cornerRadius(100)
                 
@@ -51,7 +54,7 @@ struct Home: View {
             .padding()
             .background(LinearGradient(
                 gradient: Gradient(colors: [Color(hex: "F9D16B"), Color.white]),
-                startPoint: .top,
+                startPoint: .leading,
                 endPoint: .bottom
             ))
             .cornerRadius(200)
@@ -62,7 +65,7 @@ struct Home: View {
                     .foregroundColor(.white)
                     .font(.title3)
                     .fontWeight(.bold)
-                    .padding()
+                    .padding(10)
                     .background(Color.black)
                     .cornerRadius(100)
 
@@ -77,13 +80,20 @@ struct Home: View {
             .padding()
             .background(LinearGradient(
                 gradient: Gradient(colors: [Color(hex: "F9D16B"), Color.white]),
-                startPoint: .top,
+                startPoint: .leading,
                 endPoint: .bottom
             ))
             .cornerRadius(200)
 
         }
-
+            Spacer()
+            
+            //Inclined card
+            InclinedRectangleShape()
+                 .frame(width: 382, height: 180)
+                 .foregroundColor(.purple)
+                 .cornerRadius(30)
+         
             
             Spacer()
 
@@ -91,6 +101,22 @@ struct Home: View {
         .padding(.horizontal)
         .modifier(BlackBackgroundModifier())
         
+    }
+}
+
+
+struct InclinedRectangleShape: Shape {
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        
+        path.move(to: CGPoint(x: rect.minX, y: rect.minY))
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.minY)) // Linha do topo
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.minY)) // Linha inclinada para cima
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY)) // Linha da direita
+        path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY)) // Linha inferior
+        path.closeSubpath()
+        
+        return path
     }
 }
 

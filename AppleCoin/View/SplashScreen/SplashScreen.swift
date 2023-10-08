@@ -74,7 +74,7 @@ struct SplashScreen: View {
                         // From Yello (F9D16B) to white
                             .fill(LinearGradient(
                                 gradient: Gradient(colors: [Color(hex: "F9D16B"), Color.white]),
-                                startPoint: .top,
+                                startPoint: .leading,
                                 endPoint: .bottom
                             )
                             )
